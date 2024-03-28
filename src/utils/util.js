@@ -34,3 +34,14 @@ export const postRegisterForEvent = (user, id, navigate) => {
     })
     .catch((err) => console.error(err));
 };
+
+export const generateID = () => Math.random().toString(36).substring(2, 10);
+
+export const slugToSentence = (slug) => {
+  const words = slug.split("-");
+  const sentence = words
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(" ");
+
+  return sentence;
+};
