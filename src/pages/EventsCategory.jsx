@@ -71,7 +71,6 @@ const EventsCategory = () => {
         ...doc.data(),
       }));
 
-      console.log(events);
       setEvents(events);
     };
 

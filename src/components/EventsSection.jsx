@@ -80,7 +80,7 @@ const EventsSection = () => {
 
       <div className="body_events">
         {events.map((event) => (
-          <EventItem event={event} />
+          <EventItem key={event.id} event={event} />
         ))}
       </div>
     </div>
