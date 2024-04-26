@@ -1,10 +1,17 @@
 # Project Name: Solevents
 
+![solevents thumbnail](./solevents-thumbnail-min.png "Solevents")
+
 This is a simple React project set up with Vite. It uses React 18.2.0, React Router Dom for routing, and React Icons for icon components. The project is configured to use ESLint for linting.
 
 # About This Project:
 
 The Solevents project takes its name from 'Solana events'. The purpose of this project is to gather the Solana user community under a single website. Only individuals with Solana in their wallets can access this app.
+
+# Update - 26 April 20:00
+
+![solevents update](./solevents-hack-solana-min.png "Solevents Update")
+I finished the HackSolana hackathon organized by SuperTeam in 3rd place. I'd like to thank everyone involved; it was a fantastic event :) hashtag#hacksolana
 
 ## Getting Started
 
